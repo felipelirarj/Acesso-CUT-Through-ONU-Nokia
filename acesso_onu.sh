@@ -3,14 +3,6 @@
 if [ "$#" -ne 6 ]
 then
   echo "Use: $0 <OLT IP> <ONT PASSWORD> <SLOT> <PON> <ID ONU> <IP SERVER>"
-  echo "     IP OLT"
-  echo "     ONT Password"
-  echo "     SLOT id"
-  echo "     PON id"
-  echo "     ONT id"
-  echo"      IP Server"
-  echo "Got: "
-  echo $@
   exit
 fi
 
