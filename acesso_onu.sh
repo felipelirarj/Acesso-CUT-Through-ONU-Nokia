@@ -2,7 +2,7 @@
 
 if [ "$#" -ne 6 ]
 then
-  echo "Use: $0 <OLT IP> <ONT PASSWORD> <SLOT> <PON> <ID ONU> <IP SERVER>"
+  echo "Use: $0 <IP olt> <SENHA ONU> <SLOT> <PON> <POSICAO ONU> <IP SERVIDOR LINUX>"
   exit
 fi
 
